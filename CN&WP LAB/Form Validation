@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title></title>
+    </head>
+    <body>
+        <script>
+            function myFunction()
+            {
+                var name = document.getElementById("Name").value;
+                var mobnum = document.getElementById("numb").value;
+                console.log(name);
+                console.log(mobnum);
+            }
+            </script>
+            <form method = "post" action = "submit.html">
+                <div>
+                    Name: <input type="text" id="Name"/><br>
+                    Mobnum: <input type="text" id="numb"/><br>
+                    <button onclick="myFunction()" type="button">submit</button>
+                </div>
+            </form>
+    </body>
+</html>
